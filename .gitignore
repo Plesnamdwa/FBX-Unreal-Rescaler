@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+
+# Autodesk FBX SDK proprietary binaries (Should not be uploaded to public repo)
+*.pyd
+*.dll
+*.whl
+fbx.pyd
+fbx.cp310-win_amd64.pyd
+libfbxsdk.dll
+
+# PyInstaller / Distribution outputs
+build/
+dist/
+*.exe
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.suo
+*.user
+*.useros
+*.sln.docstates
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary / Output FBX test files
+*_UE_Scaled.fbx
+*.log

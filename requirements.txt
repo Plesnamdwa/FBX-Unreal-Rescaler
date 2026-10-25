@@ -1,0 +1,8 @@
+# FBX Unreal Rescaler Dependencies
+PyQt6>=6.6.0
+pyinstaller>=6.0.0
+Pillow>=10.0.0
+
+# NOTE:
+# Autodesk FBX Python SDK ('fbx.pyd' and 'FbxCommon.py') is not available on PyPI.
+# Place 'fbx.pyd' and 'FbxCommon.py' directly in the project root or Python site-packages.
